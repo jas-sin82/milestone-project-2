@@ -132,7 +132,7 @@ ul li a:hover{
 
 /*-----------quiz app section-----*/
 
-.question-container{
+.question-containers{
    position:absolute;
    justify-content: center;
    transform: translate(-50% ,-50%);
@@ -142,6 +142,22 @@ ul li a:hover{
    background-color: whitesmoke;
    max-width:500px;
   
+}
+.question-container{
+   position:absolute;
+   justify-content: center;
+   transform: translate(-50% ,-50%);
+   top:50%;
+   left: 50%;
+   border-radius: 10px;
+   background-color: whitesmoke;
+   max-width:500px;
+   display:none;
+}
+
+.quit-class{
+   opacity: 0;
+   pointer-events: none;
 }
 
 .main-box{
