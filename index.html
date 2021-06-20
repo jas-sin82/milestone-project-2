@@ -17,7 +17,7 @@
   
 </head>
 <body>
-    <!--Toggle navbar which contain 2 navigation links one is home page and other one contact page -->
+    <!--Toggle navbar which contain 2 navigation links one is home page and other one contact page-->
 <header>
     <div class="nav-bar-1">
       <nav class="navbar navbar-light light-blue lighten-4">
@@ -48,6 +48,34 @@
         </div>
       </div>
     </div>
+    <!--the main section of app which contains question app , quit button and next button-->
+    <section>
+    <div class="question-container" id="question-box">
+      <div class="main-box">
+        <div class="question-heading"> Planet IQ Test </div>
+      </div>
+      <!--Here is question element where will stor all the question -->
+        <div id="question" class="questions">
+        </div>
+        <!--Here is answer element where will stor all the answers -->
+        <div id="answer" class="answers">
+            <div class="answer-option"></div>
+            <div class="answer-option"></div>
+            <div class="answer-option"></div>
+            <div class="answer-option"></div>
+        </div>
+      <!--quit button and next button section -->
+      <div class="button">
+        <button id="quit-quiz" class="quit"> Quit </button>
+        <button id="next-question" class="submit"> Next </button>
+      </div>
+      <!--score card section(if the question is correct will increment to correct answer tally otherwise if wrong increment in incorrect answer tally-->
+      <div class="score">
+        <p class="points">Correct Answers: <span id="correct-answer">0</span></p>
+        <p class="points">Incorrect Answers: <span id="incorrect-answer">0</span></p>
+      </div>
+    </div>
+ </section>
     <!--footer section contain social links and planet IQ heading -->
     <footer>
       <div class="footer-style container-fluid">
