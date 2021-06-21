@@ -127,23 +127,31 @@ allQuestion(0);
 
 // select answer option if the answer is correct do x and if the answer is incorrect do y.
 
-
 function selectedAnswers(correctAnswer) {
     let userAnswer = correctAnswer.innerText;
     let rightAnswer = questions[currentQuestion].correctAnswer;
-
+    let allAnswers = answerContent.children.length;
     if (userAnswer === rightAnswer) {
-
         // if the user answer is correct green color background  will pop up inside the answer box.
         correctAnswer.classList.add("green");
         alert("Answer is correct ! Tremendous work !  Keep Going ");
-
     } else {
         // if the user answer is incorrect red color background  will pop up inside the answer box.
         correctAnswer.classList.add("red");
         alert(" aho! Answer Is Incorrect ! Good Luck For the Next Question");
 
+        //if the user answer is incorrect ! correct answer will  automatically pop up with green highlight.
+        for (let x = 0; x < allAnswers; x++) {
+            if (answerContent.children[x].innerText === rightAnswer) {
+                answerContent.children[x].classList.add("green");
+            }
 
+        }
+
+    }
+    // user can click just one answer ! once user clicked,the rest of the answers will unable to click.
+    for (let x = 0; x < allAnswers; x++) {
+        answerContent.children[x].classList.add("unable-answer");
     }
 
 }
