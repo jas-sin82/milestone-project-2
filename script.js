@@ -115,6 +115,7 @@ function allQuestion(event) {
 
 }
 
+ allQuestion(0); 
 
 
 
@@ -155,7 +156,20 @@ function incrementWrongAnswer() {
 
 // next button function to click to go to next question.
 
+let currentQuestion = 0;
 
+const nextButton = document.getElementById("next-question");
+
+nextButton.addEventListener("click", function () {
+    if (currentQuestion < questions.length) {
+        currentQuestion++;
+        allQuestion(currentQuestion);
+    } else {
+        console.log("successfully loaded");
+       
+    }
+
+});
 
 
 
