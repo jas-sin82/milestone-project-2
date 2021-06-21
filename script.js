@@ -161,7 +161,7 @@ let currentQuestion = 0;
 const nextButton = document.getElementById("next-question");
 
 nextButton.addEventListener("click", function () {
-    if (currentQuestion < questions.length) {
+    if (currentQuestion < questions.length - 1) {
         currentQuestion++;
         allQuestion(currentQuestion);
     } else {
