@@ -2,111 +2,109 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Planet IQ</title>
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Planet IQ</title>
+
 </head>
+
 <body>
     <!--Toggle navbar which contain 2 navigation links one is home page and other one contact page-->
-<header>
-    <div class="nav-bar-1">
-      <nav class="navbar navbar-light light-blue lighten-4">
-        <a class="navbar-brand-1" href="index.html">Planet IQ</a>
-        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-          data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-          aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-          <ul class="navbar-nav mr-auto ">
-            <li class="nav-item active ">
-              <a href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <header>
+        <div class="nav-bar-1">
+            <nav class="navbar navbar-light light-blue lighten-4">
+                <a class="navbar-brand-1" href="index.html">Planet IQ</a>
+                <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                            class="fas fa-bars fa-1x"></i></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="nav-item active ">
+                            <a href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-      </nav>
-    </div>
-  </header>
-  <!--This section contain home page heading & start quiz button which will lead user to quiz app-->
-<section>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12  main-container">
-          <h1 class="main-header"> Let's Save Our Planet! <br>Test Your IQ & learn about facts!</h1>
-          <button id="btn-start-quiz" class="btn-quiz">Start Quiz</button>
-        </div>
-      </div>
-    </div>
-    <!--the main section of app which contains question app , quit button and next button-->
+    </header>
+    <!--This section contain home page heading & start quiz button which will lead user to quiz app-->
     <section>
-    <div class="question-container" id="question-box">
-      <div class="main-box">
-        <div class="question-heading"> Planet IQ Test </div>
-      </div>
-      <!--Here is question element where will stor all the question -->
-        <div id="question" class="questions">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12  main-container">
+                    <h1 class="main-header"> Let's Save Our Planet! <br>Test Your IQ & learn about facts!</h1>
+                    <button id="btn-start-quiz" class="btn-quiz">Start Quiz</button>
+                </div>
+            </div>
         </div>
-        <!--Here is answer element where will stor all the answers -->
-        <div id="answer" class="answers">
-            <div class="answer-option"></div>
-            <div class="answer-option"></div>
-            <div class="answer-option"></div>
-            <div class="answer-option"></div>
-        </div>
-      <!--quit button and next button section -->
-      <div class="button">
-        <button id="quit-quiz" class="quit"> Quit </button>
-        <button id="next-question" class="submit"> Next </button>
-      </div>
-      <!--score card section(if the question is correct will increment to correct answer tally otherwise if wrong increment in incorrect answer tally-->
-      <div class="score">
-        <p class="points">Correct Answers: <span id="correct-answer">0</span></p>
-        <p class="points">Incorrect Answers: <span id="incorrect-answer">0</span></p>
-      </div>
-    </div>
- </section>
-    <!--footer section contain social links and planet IQ heading -->
-    <footer>
-      <div class="footer-style container-fluid">
-        <div class="footer-heading">
-          <h5> Planet IQ</h5>
-        </div>
-        <div class="social-link-1">
-          <span class="social link"><a href="http://www.facebook.com" target="_blank"><i
-                class="fab fa-facebook-square"></i> </a></span>
-          <span class="social link"><a href="http://www.twitter.com" target="_blank" rel="noopener"><i
-                class="fab fa-twitter-square"></i> </a></span>
-          <span class="social link"><a href="http://www.youtube.com" target="_blank" rel="noopener"> <i
-                class="fab fa-youtube"></i></a></span>
-          <span class="social link"><a href="https://www.instagram.com" target="_blank" rel="noopener"><i
-                class="fab fa-instagram"></i></a></span>
-        </div>
-        <div>
-          <p class="copy-right">copyright © Planet IQ 2021.</p>
-        </div>
-      </div>
-    </footer>
+        <!--the main section of app which contains question app , quit button and next button-->
+        <section>
+            <div class="question-container" id="question-box">
+                <div class="main-box">
+                    <div class="question-heading"> Planet IQ Test </div>
+                </div>
+                <!--Here is question element where will stor all the question -->
+                <div id="question" class="questions">
+                </div>
+                <!--Here is answer element where will stor all the answers -->
+                <div id="answer" class="answers">
+                </div>
+                <!--quit button and next button section -->
+                <div class="button">
+                    <button id="quit-quiz" class="quit"> Quit </button>
+                    <button id="next-question" class="submit"> Next </button>
+                </div>
+                <!--score card section(if the question is correct will increment to correct answer tally otherwise if wrong increment in incorrect answer tally-->
+                <div class="score">
+                    <p class="points">Correct Answers: <span id="correct-answer">0</span></p>
+                    <p class="points">Incorrect Answers: <span id="incorrect-answer">0</span></p>
+                </div>
+            </div>
+        </section>
+        <!--footer section contain social links and planet IQ heading -->
+        <footer>
+            <div class="footer-style container-fluid">
+                <div class="footer-heading">
+                    <h5> Planet IQ</h5>
+                </div>
+                <div class="social-link-1">
+                    <span class="social link"><a href="http://www.facebook.com" target="_blank"><i
+                                class="fab fa-facebook-square"></i> </a></span>
+                    <span class="social link"><a href="http://www.twitter.com" target="_blank" rel="noopener"><i
+                                class="fab fa-twitter-square"></i> </a></span>
+                    <span class="social link"><a href="http://www.youtube.com" target="_blank" rel="noopener"> <i
+                                class="fab fa-youtube"></i></a></span>
+                    <span class="social link"><a href="https://www.instagram.com" target="_blank" rel="noopener"><i
+                                class="fab fa-instagram"></i></a></span>
+                </div>
+                <div>
+                    <p class="copy-right">copyright © Planet IQ 2021.</p>
+                </div>
+            </div>
+        </footer>
 
-<script src="script.js"></script>
+        <script src="script.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-      crossorigin="anonymous"></script>
-   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+        </script>
+
 </body>
 
 </html>
