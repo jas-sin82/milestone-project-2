@@ -344,9 +344,9 @@ ul li a:hover{
   height:40px;
   font-size:large;
   font-weight: 400px;
-  background: #2c3e50;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2c3e50;  
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  
+  background: linear-gradient(to right, #3498db, #2c3e50); 
   border-radius: 5px;
   color:white;
   outline-color: none;
@@ -358,3 +358,28 @@ ul li a:hover{
   background:#64b3f4;
   
 }
+/*---------------------media query-------*/
+
+@media (max-width: 575px){
+    
+.main-header h1{
+    font-size: larger;
+    text-align: center;
+    line-height: 1;
+       
+}
+
+.question-containers{
+    width:90%;
+    overflow:hidden;
+    margin-top:-10px;
+
+}
+    
+.navbar{
+    z-index:2;
+      
+}
+    
+}
+
