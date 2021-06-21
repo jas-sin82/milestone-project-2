@@ -184,7 +184,7 @@ nextButton.addEventListener("click", function () {
         allQuestion(currentQuestion);
     } else {
         console.log("successfully loaded");
-
+         quizFinalResult();
     }
 
 });
