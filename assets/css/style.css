@@ -303,6 +303,20 @@ ul li a:hover{
 
 }
 
+.restart_quiz{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50% , -50%);
+   width:80%;
+   background-color: white;
+   max-width: 500px;
+   border-bottom-left-radius:20px ;
+   border-bottom-right-radius: 10%;
+   border-top-left-radius: 10% ;
+   border-top-right-radius: 20px;
+}
+
 .finish-text{
    padding:10px;
    font-size: 20px;
