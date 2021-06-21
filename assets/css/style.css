@@ -284,3 +284,63 @@ ul li a:hover{
 .points{
    padding-right:10px;
 }
+
+ /*--restart quiz box--*/
+
+.restart-quiz{
+   
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50% , -50%);
+   width:80%;
+   background-color: white;
+   max-width: 500px;
+   border-bottom-left-radius:20px ;
+   border-bottom-right-radius: 10%;
+   border-top-left-radius: 10% ;
+   border-top-right-radius: 20px;
+
+}
+
+.finish-text{
+   padding:10px;
+   font-size: 20px;
+   font-weight: 700px;
+   text-align: center;
+   text-transform: capitalize;
+   color:black;
+   margin-top:20px;
+
+}
+
+.final-score{
+  display:flex;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+#restart-button{
+  text-align: center;
+  margin:10px;
+  width:150px;
+  height:40px;
+  font-size:large;
+  font-weight: 400px;
+  background: #2c3e50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 5px;
+  color:white;
+  outline-color: none;
+  border:none;
+  cursor:pointer;
+}
+
+#restart-button:hover{
+  background:#64b3f4;
+  
+}
