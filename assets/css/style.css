@@ -217,6 +217,11 @@ ul li a:hover{
  
 }
 
+.answer-option.unable-answer{
+   pointer-events: none;
+
+}
+
 .button{
    display: flex;
    margin-bottom:20px;
