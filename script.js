@@ -92,3 +92,63 @@ let questions = [
     },
 
 ]
+
+
+// function to getting all the questions and answer options from array .
+
+function allQuestion(){
+
+}
+
+
+
+
+
+
+// select answer option if the answer is correct do x and if the answer is incorrect do y.
+
+function selectedAnswers(){
+
+}
+
+
+
+
+
+
+
+
+
+// getting  score of correct answer and increment in to correct Answers element.
+
+function incrementScore(){
+
+}
+
+
+
+
+
+
+  // Getting score of incorrect answer and increment in to incorrect Answers element.
+
+  function incrementWrongAnswer() {
+
+  }
+
+
+
+// next button function to click to go to next question.
+
+
+
+
+
+
+  // This section belongs to result box which will show user scores and beneath score one button which will lead user back to Home page.
+
+
+  function quizFinalResult(){
+
+
+  }
