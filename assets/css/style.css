@@ -195,6 +195,10 @@ ul li a:hover{
    cursor: pointer;
 }
 
+.answer-option > p{
+  text-align: justify;
+}
+
 .button{
    display: flex;
    margin-bottom:20px;
