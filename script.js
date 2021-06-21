@@ -103,6 +103,7 @@ let questions = [{
 
 const questionContent = document.getElementById("question");
 var answerContent = document.getElementById("answer");
+const selectedAnswer = document.getElementsByClassName("answer-option");
 
 function allQuestion(event) {
     let createTag = document.createElement("p").innerHTML = questions[event].number + ")" + " " + questions[event].question;
@@ -113,9 +114,12 @@ function allQuestion(event) {
         `<div class="answer-option" >` + `<p>` + questions[event].answers[3] + `</P></div>`;
     answerContent.innerHTML = answerOption;
 
+    for (let x = 0; x < selectedAnswer.length; x++) {
+        selectedAnswer[x].setAttribute("onclick", "selectedAnswers(this)");
+    }
 }
 
- allQuestion(0); 
+allQuestion(0);
 
 
 
@@ -123,9 +127,31 @@ function allQuestion(event) {
 
 // select answer option if the answer is correct do x and if the answer is incorrect do y.
 
-function selectedAnswers() {
+
+function selectedAnswers(correctAnswer) {
+    let userAnswer = correctAnswer.innerText;
+    let rightAnswer = questions[currentQuestion].correctAnswer;
+
+    if (userAnswer === rightAnswer) {
+
+        // if the user answer is correct green color background  will pop up inside the answer box.
+        correctAnswer.classList.add("green");
+        alert("Answer is correct ! Tremendous work !  Keep Going ");
+
+    } else {
+        // if the user answer is incorrect red color background  will pop up inside the answer box.
+        correctAnswer.classList.add("red");
+        alert(" aho! Answer Is Incorrect ! Good Luck For the Next Question");
+
+
+    }
 
 }
+
+
+
+
+
 
 
 
@@ -166,7 +192,7 @@ nextButton.addEventListener("click", function () {
         allQuestion(currentQuestion);
     } else {
         console.log("successfully loaded");
-       
+
     }
 
 });
