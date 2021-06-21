@@ -120,9 +120,8 @@ function allQuestion(event) {
 }
 
 allQuestion(0);
-
-
-
+let currentQuestion = 0;
+let totalScoreAchieved = 0;
 
 
 // select answer option if the answer is correct do x and if the answer is incorrect do y.
@@ -132,13 +131,16 @@ function selectedAnswers(correctAnswer) {
     let rightAnswer = questions[currentQuestion].correctAnswer;
     let allAnswers = answerContent.children.length;
     if (userAnswer === rightAnswer) {
+        totalScoreAchieved += 1;
         // if the user answer is correct green color background  will pop up inside the answer box.
         correctAnswer.classList.add("green");
         alert("Answer is correct ! Tremendous work !  Keep Going ");
+        incrementScore();
     } else {
         // if the user answer is incorrect red color background  will pop up inside the answer box.
         correctAnswer.classList.add("red");
         alert(" aho! Answer Is Incorrect ! Good Luck For the Next Question");
+        incrementWrongAnswer();
 
         //if the user answer is incorrect ! correct answer will  automatically pop up with green highlight.
         for (let x = 0; x < allAnswers; x++) {
@@ -149,6 +151,7 @@ function selectedAnswers(correctAnswer) {
         }
 
     }
+
     // user can click just one answer ! once user clicked,the rest of the answers will unable to click.
     for (let x = 0; x < allAnswers; x++) {
         answerContent.children[x].classList.add("unable-answer");
@@ -156,41 +159,22 @@ function selectedAnswers(correctAnswer) {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // getting  score of correct answer and increment in to correct Answers element.
 
 function incrementScore() {
-
+    let currentScore = parseInt(document.getElementById("correct-answer").innerText);
+    document.getElementById("correct-answer").innerText = ++currentScore;
 }
-
-
-
-
 
 
 // Getting score of incorrect answer and increment in to incorrect Answers element.
 
 function incrementWrongAnswer() {
-
+    let currentScore = parseInt(document.getElementById("incorrect-answer").innerText);
+    document.getElementById("incorrect-answer").innerText = ++currentScore;
 }
 
-
-
 // next button function to click to go to next question.
-
-let currentQuestion = 0;
 
 const nextButton = document.getElementById("next-question");
 
@@ -204,9 +188,6 @@ nextButton.addEventListener("click", function () {
     }
 
 });
-
-
-
 
 // This section belongs to result box which will show user scores and beneath score one button which will lead user back to Home page.
 
