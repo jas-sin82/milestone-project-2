@@ -13,7 +13,7 @@ body{
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width:100wh;
+    width:100vw;
     
 }
 /*---------------toggle nav bar------------------------*/
@@ -26,7 +26,7 @@ body{
 .navbar-brand-1{
     font-size: xx-large;
     color: rgb(122, 98, 61);
-    text-shadow:transparent;
+   
 
 }
 
@@ -169,14 +169,13 @@ ul li a:hover{
 
 .question-heading{
    padding:10px;
-   font-size: 20px;
-   font-weight: 400px;
+  
   
 }
 
 .questions{
    padding:20px;
-   font-weight: 500px;
+   
    font-size: large;
    padding-left:7px;
   
@@ -235,12 +234,12 @@ ul li a:hover{
    width:150px;
    height:40px;
    font-size:large;
-   font-weight: 400px;
+  
    background: #2c3e50; 
    background: linear-gradient(to right, #3498db, #2c3e50); 
    border-radius: 5px;
    color:white;
-   outline-color: none;
+  
    border:none;
    cursor:pointer;
    margin:10px;
@@ -253,13 +252,13 @@ ul li a:hover{
    width:150px;
    height:40px;
    font-size:large;
-   font-weight: 400px;
+   
    background: #2c3e50; 
    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  
    background: linear-gradient(to right, #3498db, #2c3e50); 
    border-radius: 5px;
    color:white;
-   outline-color: none;
+  
    border:none;
    cursor:pointer;
 }
@@ -320,7 +319,7 @@ ul li a:hover{
 .finish-text{
    padding:10px;
    font-size: 20px;
-   font-weight: 700px;
+  
    text-align: center;
    text-transform: capitalize;
    color:black;
@@ -343,13 +342,13 @@ ul li a:hover{
   width:150px;
   height:40px;
   font-size:large;
-  font-weight: 400px;
+  
   background: #2c3e50;  
   background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  
   background: linear-gradient(to right, #3498db, #2c3e50); 
   border-radius: 5px;
   color:white;
-  outline-color: none;
+  
   border:none;
   cursor:pointer;
 }
