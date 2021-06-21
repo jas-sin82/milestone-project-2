@@ -23,8 +23,7 @@ quitQuiz.addEventListener("click", function () {
 
 // Array of Questions and Answers.
 
-let questions = [
-    {
+let questions = [{
         number: 1,
         question: "Which of the following is a greenhouse gas?",
         answers: ["CO2", "CO4", "Vapor Water", "Above All"],
@@ -36,7 +35,8 @@ let questions = [
         answers: ["China",
             "USA",
             "UK",
-            "Russia"],
+            "Russia"
+        ],
         correctAnswer: "China",
     },
     {
@@ -45,7 +45,8 @@ let questions = [
         answers: ["2016",
             "2020",
             "All of the above",
-            "None of the above"],
+            "None of the above"
+        ],
         correctAnswer: "All of the above",
     },
     {
@@ -54,7 +55,8 @@ let questions = [
         answers: ["Transportation",
             "Buildings",
             "Industry",
-            "Electricity and heat production"],
+            "Electricity and heat production"
+        ],
         correctAnswer: "Electricity and heat production",
     },
     {
@@ -69,7 +71,8 @@ let questions = [
         answers: ["It will make them warmer",
             "It will make them colder",
             "It won't affect them",
-            "None"],
+            "None"
+        ],
         correctAnswer: "It will make them warmer",
     },
     {
@@ -78,7 +81,8 @@ let questions = [
         answers: ["Energy from the sun",
             "Energy from within the Earth",
             "Energy from the wind",
-            "All of the above"],
+            "All of the above"
+        ],
         correctAnswer: "Energy from within the Earth",
     },
     {
@@ -87,7 +91,8 @@ let questions = [
         answers: ["up to 200 years",
             "up tp 5 years",
             "up to 100 years",
-            "All of the above"],
+            "All of the above"
+        ],
         correctAnswer: "up to 200 years",
     },
 
@@ -96,7 +101,17 @@ let questions = [
 
 // function to getting all the questions and answer options from array .
 
-function allQuestion(){
+const questionContent = document.getElementById("question");
+var answerContent = document.getElementById("answer");
+
+function allQuestion(event) {
+    let createTag = document.createElement("p").innerHTML = questions[event].number + ")" + " " + questions[event].question;
+    questionContent.innerHTML = createTag;
+    let answerOption = `<div class="answer-option">` + `<p>` + questions[event].answers[0] + `</P></div>` +
+        `<div class="answer-option">` + `<p>` + questions[event].answers[1] + `</P></div>` +
+        `<div class="answer-option"> ` + `<p>` + questions[event].answers[2] + `</P></div>` +
+        `<div class="answer-option" >` + `<p>` + questions[event].answers[3] + `</P></div>`;
+    answerContent.innerHTML = answerOption;
 
 }
 
@@ -107,7 +122,7 @@ function allQuestion(){
 
 // select answer option if the answer is correct do x and if the answer is incorrect do y.
 
-function selectedAnswers(){
+function selectedAnswers() {
 
 }
 
@@ -121,7 +136,7 @@ function selectedAnswers(){
 
 // getting  score of correct answer and increment in to correct Answers element.
 
-function incrementScore(){
+function incrementScore() {
 
 }
 
@@ -130,11 +145,11 @@ function incrementScore(){
 
 
 
-  // Getting score of incorrect answer and increment in to incorrect Answers element.
+// Getting score of incorrect answer and increment in to incorrect Answers element.
 
-  function incrementWrongAnswer() {
+function incrementWrongAnswer() {
 
-  }
+}
 
 
 
@@ -145,10 +160,10 @@ function incrementScore(){
 
 
 
-  // This section belongs to result box which will show user scores and beneath score one button which will lead user back to Home page.
+// This section belongs to result box which will show user scores and beneath score one button which will lead user back to Home page.
 
 
-  function quizFinalResult(){
+function quizFinalResult() {
 
 
-  }
+}
