@@ -1,3 +1,4 @@
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "template_i3671bf", {
             "from_name": contactForm.name.value,
@@ -24,6 +25,7 @@ function sendMail(contactForm) {
 
 }
 
+// This sweet alert function will pop up when user message sent succesfully.
 
 function emailSuccess() {
     swal({
