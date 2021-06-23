@@ -12,3 +12,11 @@ App has a two diffrent webpages each page has diffrent contents and buttons but 
 Each question has four options, User has one chance to choose the right option and user can't click more the one option, once user click the option if it is right option will turn 
 green and if user answer is wrong it will turn in to red and right answer will pop up automatically(green color). At the end of the Quiz user will be able to see the final score card. 
  
+ ##  Screenshots of project
+
+ # Desktop, Ipad & Mobile
+
+
+ ![screenshot](mock-images/milestone-responsive-screenshot.png)
+
+ 
