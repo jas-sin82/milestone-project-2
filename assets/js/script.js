@@ -201,7 +201,9 @@ function quizFinalResult() {
 
 restartButton.addEventListener("click", function () {
     restartQuiz.classList.remove("restart_quiz");
-    $(".main-container").show();
     restartQuiz.setAttribute("class", "quit-class");
-    window.location.reload();
+    restartQuiz.classList.remove("main-container");
+    questionBox.setAttribute("class","question-containers");
+    currentQuestion = 0;
+    allQuestion(currentQuestion);
 })
