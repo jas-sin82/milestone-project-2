@@ -81,13 +81,86 @@ green and if user answer is wrong it will turn in to red and right answer will p
    *  User should be able to send response to the author of the Quiz app.
 
 
- # Wireframes of Website  
+# Wireframes of Website  
 
    ### I used a balsamiq to create a wireframe. Here is link [balsamiq](https://www.balsamiq.com/)
 
    ![screenshot](mock-images/wireframe-1.png)  
 
    ![screenshot](mock-images/wireframe-2.png)  
+
+[Back to Highlights ](#highlights)
+
+# Surface
+
+## Colors 
+
+Color used in a project
+
+ * Font Color
+     
+      *  White
+
+      *  orangered
+
+      *  black 
+
+      * rgb(122, 98, 61)
+
+  * background-color
+
+      *  #1c92d2
+
+      *  #c2e59c 
+
+      *  #2c3e50
+
+      *  rgb(153, 56, 71)
+
+## Fonts used in project 
+
+   * font-family
+
+     * font-family: 'Roboto', sans-serif;
+
+## Images 
+
+   *  Images upload from google images [google-images](https://www.google.se/search?q=google+planet+nature&tbm=isch&ved=2ahUKEwjtmtPS0a7xAhWRyyoKHTSIAQcQ2-cCegQIABAA&oq=google+planet+nature&gs_lcp=CgNpbWcQAzoECCMQJzoCCAA6BggAEAUQHjoGCAAQCBAeOgQIABAeUPA9WKfDAWDC0AFoC3AAeACAAVCIAd0HkgECMTSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=W5_TYK2BCpGXqwG0kIY4&bih=937&biw=1920)
+ 
+[Back to Highlights ](#highlights)
+
+
+# Features
+ 
+    Quiz app consists of 2 pages Home page which contains start button which leads user to quiz app and second page contains Contact Form where user is able to
+    leave their feeback to the author. 
+
+   *  Inside the quiz box each question has four options and two buttons one is quit button and otherone is next buttton which will bring user to next question.
+
+   *  End of the quiz final Result box will be visible beneath results there is play again button which will bring  user back to quiz box.
+
+ ## Footer
+
+   *   Footer contains social links and App name.
+
+
+## Future development
+
+   * Future development will be to add a timer so user has to answer with in minimum time of 20sec. That will make user to more intractive and excited to play quiz. 
+
+   * My next move will be to increase the quantity of question so user can enjoy more.
+
+   * last one will be to create one extra page (with add some more functionality) the page will contain all the vital facts about our planet which will help user to play the quiz.
+
+   [Back to Highlights ](#highlights)
+
+
+
+
+
+    
+
+
 
 
        
