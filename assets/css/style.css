@@ -17,7 +17,7 @@ body{
     
 }
 /*-------------- nav bar------------------------*/
-.navbar{
+.nav-bar{
     background: #1c92d2;  
     background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  
     background: linear-gradient(to right, #f2fcfe, #1c92d2); 
