@@ -27,10 +27,6 @@ green and if user answer is wrong it will turn in to red and right answer will p
 
     * [User Desire](#user-desire)
      
-       * [New user desire ](#new-user-desire)
-       
-       * [Returning user desire](#returning-user-desire)
-
     * [User Stories](#user-stories)
 
     * [Wireframes of website](#wireframes-of-website)
@@ -52,6 +48,41 @@ green and if user answer is wrong it will turn in to red and right answer will p
     * [Credits](#credits)
 
     * [Screenshots of complete project](#screenshorts-of-complete-project)
+
+
+
+#  User Experience (UX)
+
+
+## User Desire
+
+   * User will find easily destination by just click on the start quiz button on home page which will lead user to the quiz app.
+
+   * User will be easy intractive with the quiz app beacuse theme of the app is to gain the knowledge of user.
+
+   * User is able to  send their response to author of the quiz app via contact form.
+
+
+## User Stories
+     
+   *  User should also to able to see how many question they have answer.
+
+   *  User should be select one option each question if the answer is correct it turn green otherwise red.
+
+   *  The Home screen should have a button that users can click to start the quiz.
+
+   *  User should be  able to see the score card end of the quiz.
+
+   *  User should be able to quit the quiz any time.
+
+   *  Once the quiz has finished , User should be able to start a new quiz. 
+
+   *  User should be able to send response to the author of the Quiz app.
+
+   
+     
+
+
        
 
 
