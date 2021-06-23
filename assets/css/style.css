@@ -447,8 +447,19 @@ ul li a{
 
   
 .nav-lists ul li {
-   padding-right:5px;
+   padding-right:8px;
  
+}
+
+}
+
+@media (max-width: 320px){
+  
+.question-containers{
+    overflow:scroll;
+    margin-top:0px;
+    width:90vw ;
+    height: 300px;
 }
 
 }
