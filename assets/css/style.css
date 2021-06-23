@@ -447,6 +447,15 @@ textarea{
    margin-bottom:10px;
 }
 
+input[type=submit]{
+   width: 50%;
+   height:30px;
+   text-align: center;
+   background-color:rgb(153, 56, 71);
+   opacity:0.8 ;
+   color:white;
+   margin-bottom: 20px;
+}
 
 /*---------------------media query-------*/
 
@@ -473,6 +482,11 @@ ul li a{
 
 .footer-heading h5{
    display:none;
+}
+
+.contact-box{
+   width:90%;
+   
 }
 
     
@@ -523,6 +537,13 @@ ul li a{
     margin-top:0px;
     width:90vw ;
     height: 300px;
+}
+
+.contact-box{
+   width:80%;
+   overflow: scroll;
+   height:300px ;
+   margin-top:20px;
 }
 
 }
