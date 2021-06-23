@@ -30,23 +30,23 @@
             </div>
         </nav>
     </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!--Contact form where user can submit their messages-->
+    <section>
+        <div class=" container contact-box">
+            <h1 class="contact-us">Contact Us</h1>
+            <hr class="underline">
+            <div class="form-box">
+                <form id="contact-form" onsubmit="return sendMail(this)">
+                    <input type="text" name="name" id="fullname" placeholder="Your Name" autocomplete="off" requird>
+                    <input type="email" name="emailaddress" id="emailaddress" placeholder="Your Email Address"
+                        autocomplete="off" requird>
+                    <textarea name="message" id="message" rows="4" placeholder="Type your message here..."></textarea>
+                    <br>
+                    <input type="submit" id="button" value="Send Email">
+                </form>
+            </div>
+        </div>
+    </section>
     <!--footer section contain social links and planet IQ heading -->
     <footer>
         <div class="footer-style container-fluid">
