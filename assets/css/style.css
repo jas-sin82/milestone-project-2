@@ -320,17 +320,6 @@ ul li a:hover{
  
 }
 
-.score{
-   display:flex;
-   justify-content:center ;
-   text-align: center;
-   padding-bottom: 20px;
-}
-
-.points{
-   padding-right:10px;
-}
-
  /*--restart quiz box--*/
 
 .restart-quiz{
