@@ -42,9 +42,8 @@
             <hr class="underline">
             <div class="form-box">
                 <form id="contact-form" onsubmit="return sendMail(this)">
-                    <input type="text" name="name" id="fullname" placeholder="Your Name" autocomplete="off" requird>
-                    <input type="email" name="emailaddress" id="emailaddress" placeholder="Your Email Address"
-                        autocomplete="off" requird>
+                    <input type="text" name="name" id="fullname" placeholder="Your Name" autocomplete="off" required>
+                    <input type="email" name="emailaddress" id="emailaddress" placeholder="Your Email Address" autocomplete="off" required>
                     <textarea name="message" id="message" rows="4" placeholder="Type your message here..."></textarea>
                     <br>
                     <input type="submit" id="button" value="Send Email">
@@ -74,6 +73,7 @@
         </div>
     </footer>
 
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
