@@ -212,17 +212,16 @@ ul li a:hover{
    border-bottom: 2px solid black;
    text-align: center;
    justify-content: center;
+   padding-top:10px;
 }
 
 .question-heading{
    padding:10px;
   
-  
 }
 
 .questions{
    padding:20px;
-   
    font-size: large;
    padding-left:7px;
   
@@ -281,12 +280,10 @@ ul li a:hover{
    width:150px;
    height:40px;
    font-size:large;
-  
    background: #2c3e50; 
    background: linear-gradient(to right, #3498db, #2c3e50); 
    border-radius: 5px;
    color:white;
-  
    border:none;
    cursor:pointer;
    margin:10px;
@@ -299,13 +296,11 @@ ul li a:hover{
    width:150px;
    height:40px;
    font-size:large;
-   
    background: #2c3e50; 
    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  
    background: linear-gradient(to right, #3498db, #2c3e50); 
    border-radius: 5px;
    color:white;
-  
    border:none;
    cursor:pointer;
 }
@@ -355,7 +350,6 @@ ul li a:hover{
 .finish-text{
    padding:10px;
    font-size: 20px;
-  
    text-align: center;
    text-transform: capitalize;
    color:black;
@@ -378,13 +372,11 @@ ul li a:hover{
   width:150px;
   height:40px;
   font-size:large;
-  
   background: #2c3e50;  
   background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  
   background: linear-gradient(to right, #3498db, #2c3e50); 
   border-radius: 5px;
   color:white;
-  
   border:none;
   cursor:pointer;
 }
@@ -410,11 +402,16 @@ ul li a:hover{
     margin-top:-10px;
 
 }
-    
-.navbar{
-    z-index:2;
-      
+ 
+ul li a{
+    padding-right:0px;
+    font-size: small;
 }
+
+.footer-heading h5{
+   display:none;
+}
+
     
 }
 
@@ -436,9 +433,10 @@ ul li a:hover{
 }
 
 .question-containers{
-    overflow:hidden;
+    overflow:scroll;
     margin-top:0px;
     width:90vw ;
+    height: 400px;
 }
     
 
@@ -446,9 +444,11 @@ ul li a:hover{
    margin-top:10px;
    display: none;
 }
-  
-.footer-heading h5{
-   display:none;
 
+  
+.nav-lists ul li {
+   padding-right:5px;
+ 
 }
+
 }
