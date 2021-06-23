@@ -19,4 +19,39 @@ green and if user answer is wrong it will turn in to red and right answer will p
 
  ![screenshot](mock-images/milestone-responsive-screenshot.png)
 
- 
+
+
+ # Highlights
+
+ * [User Experience (UX)](#User-experience-UX)
+
+    * [User Desire](#user-desire)
+     
+       * [New user desire ](#new-user-desire)
+       
+       * [Returning user desire](#returning-user-desire)
+
+    * [User Stories](#user-stories)
+
+    * [Wireframes of website](#wireframes-of-website)
+
+    * [Surface](#surface)
+
+    * [Features](#features)
+
+    * [Technology used in a Project](#technology-used-in-a-Project)
+
+    * [ Functionality Test ](#functionality-test)
+
+        * [Code Validation Test](#Code-validation-test)
+
+        * [ Performance Testing ](#performance-testing)
+
+    * [Deployment](#Deployment)
+
+    * [Credits](#credits)
+
+    * [Screenshots of complete project](#screenshorts-of-complete-project)
+       
+
+
