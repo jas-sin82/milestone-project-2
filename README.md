@@ -62,6 +62,7 @@ green and if user answer is wrong it will turn in to red and right answer will p
 
    * User is able to  send their response to author of the quiz app via contact form.
 
+ [Back to Highlights ](#highlights)
 
 ## User Stories
      
@@ -79,8 +80,14 @@ green and if user answer is wrong it will turn in to red and right answer will p
 
    *  User should be able to send response to the author of the Quiz app.
 
-   
-     
+
+ # Wireframes of Website  
+
+   ### I used a balsamiq to create a wireframe. Here is link [balsamiq](https://www.balsamiq.com/)
+
+   ![screenshot](mock-images/wireframe-1.png)  
+
+   ![screenshot](mock-images/wireframe-2.png)  
 
 
        
