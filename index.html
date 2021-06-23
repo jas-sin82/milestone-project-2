@@ -18,27 +18,19 @@
 </head>
 
 <body>
-    <!--Toggle navbar which contain 2 navigation links one is home page and other one contact page-->
+    <!-- navbar which contain 2 navigation links one is home page and other one contact page-->
     <header>
-        <div class="nav-bar-1">
-            <nav class="navbar navbar-light light-blue lighten-4">
-                <a class="navbar-brand-1" href="index.html">Planet IQ</a>
-                <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-                    aria-label="Toggle navigation"><span class="dark-blue-text"><i
-                            class="fas fa-bars fa-1x"></i></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                    <ul class="navbar-nav mr-auto ">
-                        <li class="nav-item active ">
-                            <a href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html">Contact</a>
-                        </li>
+        <nav>
+            <div class="nav-bar">
+                <a class="navbar-brand-1" href="index.html">Planet<span>IQ</span></a>
+                <div class="nav-lists">
+                    <ul>
+                        <li> <a class="nav-item active" href="index.html">Home</a></li>
+                        <li> <a class="nav-item" href="contact.html">Contact </a></li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <!--This section contain home page heading & start quiz button which will lead user to quiz app-->
     <section>
@@ -50,80 +42,80 @@
                 </div>
             </div>
         </div>
-        </section>
-        <!--the main section of app which contains question app , quit button and next button-->
-        <section>
-            <div class="question-container" id="question-box">
-                <div class="main-box">
-                    <div class="question-heading"> 
-                    <h2> Planet IQ Test </h2> 
-                    </div>
-                </div>
-                <!--Here is question element where will stor all the question -->
-                <div id="question" class="questions">
-                    
-                </div>
-                <!--Here is answer element where will stor all the answers -->
-                <div id="answer" class="answers">
-                  
-                </div>
-                <!--quit button and next button section -->
-                <div class="button">
-                    <button id="quit-quiz" class="quit"> Quit </button>
-                    <button id="next-question" class="submit"> Next </button>
-                </div>
-                <!--score card section(if the question is correct will increment to correct answer tally otherwise if wrong increment in incorrect answer tally-->
-                <div class="score">
-                    <p class="points">Correct Answers: <span id="correct-answer">0</span></p>
-                    <p class="points">Incorrect Answers: <span id="incorrect-answer">0</span></p>
+    </section>
+    <!--the main section of app which contains question app , quit button and next button-->
+    <section>
+        <div class="question-container" id="question-box">
+            <div class="main-box">
+                <div class="question-heading">
+                    <h2> Planet IQ Test </h2>
                 </div>
             </div>
-        </section>
-        <!--restart quiz section -->
-    <div class="container restart-quiz " id="restart-quiz">
-      <div class="row">
-        <div class="col-12">
-          <div class="finish-text">
-            <p>You have Completed the Quiz </p>
-          </div>
-          <div id="score-card" class="final-score">
-          </div>
-          <div class="button">
-            <button id="restart-button">Home Page</button>
-          </div>
+            <!--Here is question element where will stor all the question -->
+            <div id="question" class="questions">
+
+            </div>
+            <!--Here is answer element where will stor all the answers -->
+            <div id="answer" class="answers">
+
+            </div>
+            <!--quit button and next button section -->
+            <div class="button">
+                <button id="quit-quiz" class="quit"> Quit </button>
+                <button id="next-question" class="submit"> Next </button>
+            </div>
+            <!--score card section(if the question is correct will increment to correct answer tally otherwise if wrong increment in incorrect answer tally-->
+            <div class="score">
+                <p class="points">Correct Answers: <span id="correct-answer">0</span></p>
+                <p class="points">Incorrect Answers: <span id="incorrect-answer">0</span></p>
+            </div>
         </div>
-      </div>
-    </div>
-        <!--footer section contain social links and planet IQ heading -->
-        <footer>
-            <div class="footer-style container-fluid">
-                <div class="footer-heading">
-                    <h5> Planet IQ</h5>
+    </section>
+    <!--restart quiz section -->
+    <div class="container restart-quiz " id="restart-quiz">
+        <div class="row">
+            <div class="col-12">
+                <div class="finish-text">
+                    <p>You have Completed the Quiz </p>
                 </div>
-                <div class="social-link-1">
-                    <span class="social link"><a href="http://www.facebook.com" target="_blank"><i
-                                class="fab fa-facebook-square"></i> </a></span>
-                    <span class="social link"><a href="http://www.twitter.com" target="_blank" rel="noopener"><i
-                                class="fab fa-twitter-square"></i> </a></span>
-                    <span class="social link"><a href="http://www.youtube.com" target="_blank" rel="noopener"> <i
-                                class="fab fa-youtube"></i></a></span>
-                    <span class="social link"><a href="https://www.instagram.com" target="_blank" rel="noopener"><i
-                                class="fab fa-instagram"></i></a></span>
+                <div id="score-card" class="final-score">
                 </div>
-                <div>
-                    <p class="copy-right">copyright © Planet IQ 2021.</p>
+                <div class="button">
+                    <button id="restart-button">Home Page</button>
                 </div>
             </div>
-        </footer>
+        </div>
+    </div>
+    <!--footer section contain social links and planet IQ heading -->
+    <footer>
+        <div class="footer-style container-fluid">
+            <div class="footer-heading">
+                <h5> Planet IQ</h5>
+            </div>
+            <div class="social-link-1">
+                <span class="social link"><a href="http://www.facebook.com" target="_blank"><i
+                            class="fab fa-facebook-square"></i> </a></span>
+                <span class="social link"><a href="http://www.twitter.com" target="_blank" rel="noopener"><i
+                            class="fab fa-twitter-square"></i> </a></span>
+                <span class="social link"><a href="http://www.youtube.com" target="_blank" rel="noopener"> <i
+                            class="fab fa-youtube"></i></a></span>
+                <span class="social link"><a href="https://www.instagram.com" target="_blank" rel="noopener"><i
+                            class="fab fa-instagram"></i></a></span>
+            </div>
+            <div>
+                <p class="copy-right">copyright © Planet IQ 2021.</p>
+            </div>
+        </div>
+    </footer>
 
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
-        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
