@@ -408,10 +408,20 @@ ul li a:hover{
    opacity: 0.2;
  }
 
+.contact-box{
+   position:absolute;
+   justify-content: center;
+   transform: translate(-50% ,-50%);
+   top:50%;
+   left: 50%;
+   border-radius: 10px;
+   background-color: whitesmoke;
+   max-width:500px;
+}
 
 
 
- 
+
 /*---------------------media query-------*/
 
 @media (max-width: 575px){
