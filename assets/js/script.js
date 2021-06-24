@@ -95,7 +95,7 @@ let questions = [{
         ],
         correctAnswer: "up to 200 years",
     },
-     {
+    {
         number: 9,
         question: "What do scientists agree is causing climate change?",
         answers: ["Humans",
@@ -115,7 +115,7 @@ let questions = [{
         ],
         correctAnswer: "All of the above",
     },
-     {
+    {
         number: 11,
         question: "How much of the world's food produced in a year is thrown away uneaten?",
         answers: ["One quarter",
@@ -123,7 +123,7 @@ let questions = [{
             "One half",
             "All of the above"
         ],
-        correctAnswer: "one third",
+        correctAnswer: "One third",
     },
     {
         number: 12,
@@ -155,7 +155,7 @@ let questions = [{
         ],
         correctAnswer: "Climate",
     },
-     {
+    {
         number: 15,
         question: " When was the last time in Earth's history that CO2 was as high as it is now?",
         answers: ["This is the highest it's ever been",
@@ -273,7 +273,7 @@ restartButton.addEventListener("click", function () {
     restartQuiz.classList.remove("restart_quiz");
     restartQuiz.setAttribute("class", "quit-class");
     restartQuiz.classList.remove("main-container");
-    questionBox.setAttribute("class","question-containers");
+    questionBox.setAttribute("class", "question-containers");
     currentQuestion = 0;
     allQuestion(currentQuestion);
 })
