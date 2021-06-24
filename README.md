@@ -154,6 +154,51 @@ Color used in a project
 
    [Back to Highlights ](#highlights)
 
+# Technology used in a Project
+
+ ## HTML 
+
+   * To create whole structure of project.
+
+ ## CSS  
+
+ * TO style the whole structure of project.
+
+ ## JavaScript
+
+ *  I have used Javascript for converting the static web page into more user interactive. 
+
+## Bootstrap & Media Query
+
+  * To make it responsive on all the devices such as Desktop , Ipad  and Mobile.
+
+## Emailjs 
+
+   * EmailJS is a allows for the sending of emails directly from JavaScript without the need for any backend code. Here is link [emailjs](https://www.emailjs.com/)
+
+ ## SweetAlert 
+
+  *  Its a library of beautiful sweetAlerts which helps to make webpage more user interactive. I am using sweetAlerts in contact page once user  
+     message submit successfully it will pop up and tell user your message has been delivered. 
+     
+## Wireframes
+
+  * Use balsamiq as a wireframe tool.
+
+ ## Google Font 
+
+   *  To make structure beautiful.
+
+## Github 
+
+   * To keep project safe and publically on cloud.
+
+## Gitpod 
+
+   * Used as code editor to create my project.  
+
+    [Back to Highlights ](#highlights)  
+    
 
 
 
