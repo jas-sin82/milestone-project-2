@@ -37,9 +37,15 @@ green and if user answer is wrong it will turn in to red and right answer will p
 
     * [Technology used in a Project](#technology-used-in-a-Project)
 
-    * [ Functionality Test ](#functionality-test)
+    * [Testing](#testing)
+
+        * [ Functionality Test ](#functionality-test)
+        
+        * [ Compatibility testing ](#Compatibility-testing) 
 
         * [Code Validation Test](#Code-validation-test)
+
+        * [Error found during site development ](#Error-found-during-site-development)
 
         * [ Performance Testing ](#performance-testing)
 
@@ -197,8 +203,54 @@ Color used in a project
 
    * Used as code editor to create my project.  
 
-    [Back to Highlights ](#highlights)  
-    
+[Back to Highlights ](#highlights)  
+
+
+# Testing 
+
+
+## Functionality Testing 
+   
+   * I used  Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+
+##  Compatibility Testing 
+
+  *   Project has been tested on different devices such as Desktop, Ipad and on diffrent Mobiles Iphone x, Iphone 6,7,8 , Samsung Note 20 ,Iphone 5 ,Iphone4,
+      Nexus and it works great.Webpage is fully responsive on all devices.
+
+## Code Validation Test
+
+I have checked up the validity of both the Html webpages and CSS file:
+
+  * [The W3C Markup Validation Service](https://validator.w3.org)   
+  
+  * [The W3C CSS Validation Service ](https://jigsaw.w3.org)
+
+
+## Error found during site development  
+
+  * During the site development I found the error in index.html ( webpage moves left to right) even I used margin 0 padding 0 in external css to
+    removes all default margin and padding for every object on the page but it did not helped.
+
+    * Then I  start google it to find out how to resolve this error, what I didnt get anything what i need.
+
+    *  I decided to test internal css To fix this error, I used internal css body,html { margin= 0, padding = 0, width:100% ,height: 100%, overflow-x:hidden}. 
+       After when I inculde this line of code error was resolved. 
+
+* Mobile responsive error  
+
+   * I found error some of devices was not responsive(such as Iphone 5,4  all the devices below then 320 px). 
+
+   * To solve this issue I add extra media query with max-width 320px.
+   
+   * After adding media query , What I found content start overflow from  quiz box  to solve this error I add overflow scrolbar.
+
+   
+
+      
+ 
+  
+
 
 
 
