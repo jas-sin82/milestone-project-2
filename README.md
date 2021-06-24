@@ -248,17 +248,50 @@ I have checked up the validity of both the Html webpages and CSS file:
 
 # Performance Testing 
 
- I have used lighthouse tool to check the performance of website. Here is link [Lighthouse](https://developers.google.com)
+   I have used lighthouse tool to check the performance of website. Here is link [Lighthouse](https://developers.google.com)
 
- ![screenshot](mock-images/testing-desk-1.png)
+   ![screenshot](mock-images/testing-desk-1.png)
 
- ![screenshot](mock-images/testing-desk-2.png)
+   ![screenshot](mock-images/testing-desk-2.png)
 
- ![screenshot](mock-images/Testing-1.png)
+   ![screenshot](mock-images/Testing-1.png)
 
- ![screenshot](mock-images/Testing-2.png)
+   ![screenshot](mock-images/Testing-2.png)
+
+[Back to Highlights ](#highlights)
 
 
+# Deployment
+
+  The project was deployed on GitHub Pages. I used Gitpod as a work space where I commited all changes to git version control system.
+  I used push command in Gitpod to save changes into GitHub. 
+
+ ## To deploy a project: 
+
+   * Log in to GitHub and click on repository to deploy ([Milestone Project 2](https://jas-sin82.github.io/milestone-project-2/)) 
+
+   * Go to the `Settings` and find GitHub Pages section at the very bottom of the page.
+
+   * From source select the `Branch`! and click save and page was deployed after auto-refresh.
+.
+   * Your site is published at https://jas-sin82.github.io/milestone-project-2/
+
+## To run localy:
+
+   * Log in to GitHub and click on repository to download ([Milestone Project 2]( https://jas-sin82.github.io/milestone-project-2/)).
+
+   * Select `Code` and click Download the ZIP file.
+
+   * After download you can extract the file and use in your local environment.
+
+   * Second option is you can [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
+     or [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository ([Milestone Project 2](https://jas-sin82.github.io/milestone-project-2/)) into your github account.
+  
+
+[Back to Highlights ](#highlights)
+
+
+# Credits 
 
       
  
