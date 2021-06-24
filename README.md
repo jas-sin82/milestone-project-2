@@ -331,7 +331,7 @@ I have checked up the validity of both the Html webpages and CSS file:
    ![screenshot](mock-images/screenshot-6.png)
 
 
-
+[Back to Highlights ](#highlights)
 
 
       
