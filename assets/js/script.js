@@ -18,6 +18,8 @@ quitQuiz.addEventListener("click", function () {
     questionBox.classList.remove("question-containers");
     questionBox.setAttribute("class", "quit-class");
     $(".main-container").show();
+    currentQuestion = 0;
+    allQuestion(currentQuestion);
 
 })
 
@@ -26,7 +28,7 @@ quitQuiz.addEventListener("click", function () {
 let questions = [{
         number: 1,
         question: "Which of the following is a greenhouse gas?",
-        answers: ["CO2", "CO4", "Vapor Water", "Above All"],
+        answers: ["CO2", "Methane", "Vapor Water", "Above All"],
         correctAnswer: "Above All",
     },
     {
@@ -89,7 +91,7 @@ let questions = [{
         number: 8,
         question: "How long does CO2 remain in the atmosphere?",
         answers: ["up to 200 years",
-            "up tp 5 years",
+            "up to 5 years",
             "up to 100 years",
             "All of the above"
         ],
