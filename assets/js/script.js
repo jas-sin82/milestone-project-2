@@ -149,11 +149,11 @@ let questions = [{
         number: 14,
         question: "When you hear it’s unusually hot today, is that about the climate or weather?",
         answers: ["Climate",
-            "The last time CO2 was this high was 3 million years ago.",
+            "weather",
             "None",
             "All of the above"
         ],
-        correctAnswer: "Climate",
+        correctAnswer: "weather",
     },
     {
         number: 15,
