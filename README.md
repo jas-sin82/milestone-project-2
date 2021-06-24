@@ -293,6 +293,47 @@ I have checked up the validity of both the Html webpages and CSS file:
 
 # Credits 
 
+ ## Contents
+
+   80 % of contents of my project is from outside sources:
+
+   *  https://www.earthday.org/the-climate-change-quiz/.
+
+   *  https://cleanet.org/clean/literacy/climate/quiz.html.
+
+
+ ##   Hints & Ideas 
+
+  *   W3Schools https://www.w3schools.com
+
+  *   JavaScript The Definitive Guide (Author of the book David Flanagan).
+
+  *   https://developer.mozilla.org/en-US/docs/Web/JavaScript 
+   
+
+## To finish this project I have used [Code Institute gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template) 
+
+[Back to Highlights ](#highlights)
+ 
+ 
+#  Screenshots of complete project 
+
+   ![screenshot](mock-images/screenshot-1.png)
+
+   ![screenshot](mock-images/screenshot-4.png)
+
+   ![screenshot](mock-images/screenshot-2.png)
+
+   ![screenshot](mock-images/screenshot-5.png)
+
+   ![screenshot](mock-images/screenshot-3.png)
+
+   ![screenshot](mock-images/screenshot-6.png)
+
+
+
+
+
       
  
   
