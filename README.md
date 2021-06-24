@@ -237,6 +237,9 @@ I have checked up the validity of both the Html webpages and CSS file:
     *  I decided to test internal css To fix this error, I used internal css body,html { margin= 0, padding = 0, width:100% ,height: 100%, overflow-x:hidden}. 
        After when I inculde this line of code error was resolved. 
 
+    * I found the same bug in contact page as well, contact page was horizental scrolling. To fix this bug I used the intrenal css 
+      body,html { margin= 0, padding = 0, width:100% ,height: 100%, overflow-x:hidden}.  
+
 * Mobile responsive error  
 
    * I found error some of devices was not responsive(such as Iphone 5,4  all the devices below then 320 px). 
