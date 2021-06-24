@@ -245,7 +245,20 @@ I have checked up the validity of both the Html webpages and CSS file:
    
    * After adding media query , What I found content start overflow from  quiz box  to solve this error I add overflow scrolbar.
 
-   
+
+# Performance Testing 
+
+ I have used lighthouse tool to check the performance of website. Here is link [Lighthouse](https://developers.google.com)
+
+ ![screenshot](mock-images/testing-desk-1.png)
+
+ ![screenshot](mock-images/testing-desk-2.png)
+
+ ![screenshot](mock-images/Testing-1.png)
+
+ ![screenshot](mock-images/Testing-2.png)
+
+
 
       
  
