@@ -626,9 +626,6 @@ ul li a{
     
 }
 
-.main-header{
-    display: none;
-}
 
     
 }
@@ -695,6 +692,10 @@ ul li a{
   
     
 }
+.main-header{
+    display: none;
+}
+
 
 }
 
