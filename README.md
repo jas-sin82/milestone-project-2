@@ -240,6 +240,9 @@ I have checked up the validity of both the Html webpages and CSS file:
     * I found the same bug in contact page as well, contact page was horizental scrolling. To fix this bug I used the intrenal css 
       body,html { margin= 0, padding = 0, width:100% ,height: 100%, overflow-x:hidden}.  
 
+    * I found  bug in score section , when I tried to reset  the quiz after reseting the quiz still showing the old scores. To fix this bug I target 
+     the score id to be a 0 when the quiz reset. After this quiz  work normally.  
+
 * Mobile responsive error  
 
    * I found error some of devices was not responsive(such as Iphone 5,4  all the devices below then 320 px). 
