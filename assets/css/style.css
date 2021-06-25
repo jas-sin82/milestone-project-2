@@ -16,6 +16,7 @@ body{
     width:100vw;
     
 }
+
 /*-------------- nav bar------------------------*/
 .nav-bar{
     background: #1c92d2;  
@@ -524,6 +525,7 @@ input[type=submit]{
    color:white;
    margin-bottom: 20px;
 }
+
  /*----------------Error page ----------*/
 
  error_page{
