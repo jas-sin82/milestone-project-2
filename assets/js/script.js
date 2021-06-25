@@ -271,13 +271,13 @@ function quizFinalResult() {
     questionBox.setAttribute("class", "quit-class");
     restartQuiz.setAttribute("class", "restart_quiz");
     let finalScore = document.getElementById("score-card");
-    if (totalScoreAchieved > 6) {
+    if (totalScoreAchieved > 12) {
         finalScore.innerHTML =
             `<span>` + `Excellent You are rock ! <br> Please share your knowledge with <br> others to save our planet <br> <span>` + totalScoreAchieved + `</span> out of <span>` + questions.length + `</span> !</span>`;
-    } else if (totalScoreAchieved > 4) {
+    } else if (totalScoreAchieved >= 8) {
         finalScore.innerHTML =
             `<span>` + `Congratulation you got! <br><span>` + totalScoreAchieved + `</span> out of <span>` + questions.length + `</span> <br> Good Luck & Try Again  !</span>`;
-    } else if (totalScoreAchieved < 3) {
+    } else if (totalScoreAchieved < 7) {
         finalScore.innerHTML =
             `<span>` + ` Aho ! You Got <br> <span>` + totalScoreAchieved + `</span> Out Of <span>` + questions.length + `</span> <br> Good Luck & Try Again !</span>`;
     } else {
