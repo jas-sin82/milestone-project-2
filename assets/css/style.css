@@ -605,7 +605,7 @@ ul li a{
    width:90%;
    
 }
-.instruction-box-1{
+.instruction-box{
    width: 90%;
    height:400px;
    overflow:scroll;
@@ -668,6 +668,15 @@ ul li a{
    overflow: scroll;
    height:300px ;
    margin-top:20px;
+}
+
+.instruction-box{
+   width: 90%;
+   height:300px;
+   overflow-y:scroll;
+   overflow-x:hidden;
+  
+    
 }
 
 }
