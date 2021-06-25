@@ -220,7 +220,7 @@ ul li a:hover{
    list-style: none;
    font-weight: 500;
    text-align: justify;
-   
+   padding : 5px;
 }
 
 .quiz_rule li{
@@ -617,12 +617,17 @@ ul li a{
    width:90%;
    
 }
-.instruction-box{
+.instruction-box-1{
    width: 90%;
    height:400px;
-   overflow:scroll;
+   overflow-y:scroll;
+   overflow-x:hidden;
  
     
+}
+
+.main-header{
+    display: none;
 }
 
     
@@ -682,7 +687,7 @@ ul li a{
    margin-top:20px;
 }
 
-.instruction-box{
+.instruction-box-1{
    width: 90%;
    height:300px;
    overflow-y:scroll;
