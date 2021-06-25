@@ -626,11 +626,8 @@ ul li a{
    overflow-y:scroll;
    overflow-x:hidden;
  
-    
 }
 
-
-    
 }
 
 @media (max-width: 375px){
@@ -693,13 +690,7 @@ ul li a{
    overflow-y:scroll;
    overflow-x:hidden;
   
-    
 }
-.main-header{
-  display: none;
-}
-
-
 }
 
 
