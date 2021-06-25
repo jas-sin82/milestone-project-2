@@ -206,12 +206,14 @@ function selectedAnswers(correctAnswer) {
         totalScoreAchieved += 1;
         // if the user answer is correct green color background  will pop up inside the answer box.
         correctAnswer.classList.add("green");
-
+        incrementScore();
     } else {
         // if the user answer is incorrect red color background  will pop up inside the answer box.
         correctAnswer.classList.add("red");
+        incrementWrongAnswer();
 
         //if the user answer is incorrect ! correct answer will  automatically pop up with green highlight.
+
         for (let x = 0; x < allAnswers; x++) {
             if (answerContent.children[x].innerText === rightAnswer) {
                 answerContent.children[x].classList.add("green");
@@ -226,6 +228,22 @@ function selectedAnswers(correctAnswer) {
         answerContent.children[x].classList.add("unable-answer");
     }
 
+}
+
+// getting  score of correct answer and increment in to correct Answers element.
+
+function incrementScore() {
+
+    var currentScore = parseInt(document.getElementById("correct-answer").innerText);
+    document.getElementById("correct-answer").innerText = ++currentScore;
+}
+
+// Getting score of incorrect answer and increment in to incorrect Answers element.
+
+function incrementWrongAnswer() {
+
+    var currentScore = parseInt(document.getElementById("incorrect-answer").innerText);
+    document.getElementById("incorrect-answer").innerText = ++currentScore;
 }
 
 // next button function to click to go to next question.
@@ -278,4 +296,6 @@ restartButton.addEventListener("click", function () {
     questionBox.setAttribute("class", "question-containers");
     currentQuestion = 0;
     allQuestion(currentQuestion);
+    document.getElementById("correct-answer").innerText = totalScoreAchieved = 0;
+    document.getElementById("incorrect-answer").innerText = totalScoreAchieved = 0 ;
 })
