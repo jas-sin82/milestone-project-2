@@ -596,6 +596,9 @@ input[type=submit]{
     line-height: 1;
        
 }
+.main-header{
+   font-size: small;
+}
 
 .question-containers{
     width:90%;
@@ -693,7 +696,7 @@ ul li a{
     
 }
 .main-header{
-    display: none;
+  display: none;
 }
 
 
