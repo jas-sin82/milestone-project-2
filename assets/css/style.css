@@ -205,10 +205,10 @@ ul li a:hover{
 }
 
 .quiz_rule {
-   padding:5px;
+   list-style: none;
    font-weight: 500;
    text-align: justify;
- 
+   
 }
 
 .quiz_rule li{
@@ -604,6 +604,13 @@ ul li a{
 .contact-box{
    width:90%;
    
+}
+.instruction-box-1{
+   width: 90%;
+   height:400px;
+   overflow:scroll;
+ 
+    
 }
 
     
