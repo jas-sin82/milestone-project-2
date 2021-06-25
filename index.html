@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Planet IQ</title>
     <style>
@@ -70,6 +70,11 @@
             <div class="button">
                 <button id="quit-quiz" class="quit"> Quit </button>
                 <button id="next-question" class="submit"> Next </button>
+            </div>
+            <!--score card section(if the question is correct will increment to correct answer tally otherwise if wrong increment in incorrect answer tally-->
+            <div class="score">
+                <p class="points">Correct Answers: <span id="correct-answer">0</span></p>
+                <p class="points">Incorrect Answers: <span id="incorrect-answer">0</span></p>
             </div>
         </div>
     </section>

@@ -315,6 +315,18 @@ ul li a:hover{
  
 }
 
+.score{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+ 
+}
+.points{
+   padding:10px;
+   text-align: center;
+   justify-content: center;
+}
+
  /*--restart quiz box--*/
 
 .restart-quiz{
