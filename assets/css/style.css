@@ -188,8 +188,20 @@ ul li a:hover{
    border-radius: 10px;
    background-color: whitesmoke;
    max-width:500px;
+   display:none;
+}
+.instruction-box-1{
+   position:absolute;
+   justify-content: center;
+   transform: translate(-50% ,-50%);
+   top:50%;
+   left: 50%;
+   border-radius: 10px;
+   background-color: whitesmoke;
+   max-width:500px;
    
 }
+
 
 .quiz-rule h2{
    text-align: center;
