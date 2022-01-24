@@ -26,6 +26,13 @@
 </head>
 
 <body>
+    <!--audio sound for correct and wrong answers -->
+    <audio id="myAudio-wrong">
+        <source src="Wrong-answer-sound-effect.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudio-right">
+        <source src="Correct-answer.mp3" type="audio/mpeg">
+    </audio>
     <!-- navbar which contain 2 navigation links one is home page and other one contact page-->
     <header>
         <nav>
@@ -64,12 +71,12 @@
                             <li> 1) Quiz App contains 15 questions. </li>
                             <li> 2) Each question has four options.</li>
                             <li> 3) You can't select more then one option.</li>
-                            <li> 4) If you don't want to continue ! You can quit quiz anytime. </li>
+                            <li> 4) Once you start play ! You can't quit ! </li>
                             <li> 5) End of the Quiz you can see score card.</li>
                         </ul>
                         <p class="best"> Best of luck ! Go Ahead and Play !</p>
                         <div class="button">
-                            <button id="next-app" class="submit"> Next </button>
+                            <button id="next-app" class="submit"> Start Quiz </button>
                         </div>
                     </div>
                 </div>
@@ -83,6 +90,9 @@
                 <div class="question-heading">
                     <h2> Planet IQ Test </h2>
                 </div>
+                <div id="total-questions">
+
+                </div>
             </div>
             <!--Here is question element where will stor all the question -->
             <div id="question" class="questions">
@@ -92,7 +102,6 @@
             </div>
             <!--quit button and next button section -->
             <div class="button">
-                <button id="quit-quiz" class="quit"> Quit </button>
                 <button id="next-question" class="submit"> Next </button>
             </div>
             <!--score card section(if the question is correct will increment to correct answer tally otherwise if wrong increment in incorrect answer tally-->
@@ -112,6 +121,7 @@
                 <div id="score-card" class="final-score">
                 </div>
                 <div class="button">
+                    <button id="quit-quiz" class="quit"> Quit </button>
                     <button id="restart-button">Play Again</button>
                 </div>
             </div>

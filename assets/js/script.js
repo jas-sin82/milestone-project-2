@@ -6,6 +6,8 @@ const quitQuiz = document.getElementById("quit-quiz");
 const nextQuestion = document.getElementById("next-question");
 const instructionBox = document.getElementById("instruction_box")
 const nextApp = document.getElementById("next-app");
+const audioWrong = document.getElementById("myAudio-wrong");
+const audioRight = document.getElementById("myAudio-right");
 
 
 // adding addEventfunction (when the start button clicked)
@@ -23,16 +25,24 @@ nextApp.addEventListener("click", function () {
     instructionBox.classList.remove("instruction-box-1");
     questionBox.setAttribute("class", "question-containers");
     instructionBox.setAttribute("class", "quit-class");
+    nextQuestion.classList.add("unable-button");
+    questionCounter(1);
 })
 
 // adding addEventfunction (when the quit button clicked)
 
 quitQuiz.addEventListener("click", function () {
     questionBox.classList.remove("question-containers");
-    questionBox.setAttribute("class", "quit-class");
     $(".main-container").show();
     currentQuestion = 0;
     allQuestion(currentQuestion);
+    currentNumber = 0;
+    questionCounter(currentNumber);
+    nextQuestion.classList.add("unable-button");
+    document.getElementById("correct-answer").innerText = totalScoreAchieved = 0;
+    document.getElementById("incorrect-answer").innerText = totalScoreAchieved = 0;
+    restartQuiz.classList.remove("restart_quiz");
+    restartQuiz.setAttribute("class", "quit-class");
 
 })
 
@@ -162,7 +172,7 @@ let questions = [{
     },
     {
         number: 14,
-        question: "When you hear it’s unusually hot today, is that about the climate or weather?",
+        question: "When you hear its unusually hot today, is that about the climate or weather?",
         answers: ["Climate",
             "weather",
             "None",
@@ -174,11 +184,11 @@ let questions = [{
         number: 15,
         question: " When was the last time in Earth's history that CO2 was as high as it is now?",
         answers: ["This is the highest it's ever been",
-            "The last time CO2 was this high was 3 million years ago.",
+            "3 million years ago",
             "None",
             "All of the above"
         ],
-        correctAnswer: "The last time CO2 was this high was 3 million years ago.",
+        correctAnswer: "3 million years ago",
     },
 
 ]
@@ -204,9 +214,16 @@ function allQuestion(event) {
     }
 }
 
+function questionCounter(index) {
+    const questionCounting = document.getElementById("total-questions");
+    questionCounting.innerHTML = `<span> ${index} of ${questions.length} </span>`;
+
+}
+
 allQuestion(0);
 let currentQuestion = 0;
 let totalScoreAchieved = 0;
+let currentNumber = 1;
 
 
 // select answer option if the answer is correct do x and if the answer is incorrect do y.
@@ -219,20 +236,26 @@ function selectedAnswers(correctAnswer) {
         totalScoreAchieved += 1;
         // if the user answer is correct green color background  will pop up inside the answer box.
         correctAnswer.classList.add("green");
+        audioRight.play();
+        nextQuestion.classList.remove("unable-button");
         incrementScore();
     } else {
         // if the user answer is incorrect red color background  will pop up inside the answer box.
         correctAnswer.classList.add("red");
+        setTimeout(() => {
+            audioWrong.play();
+        }, 500);
+        nextQuestion.classList.remove("unable-button");
         incrementWrongAnswer();
 
         //if the user answer is incorrect ! correct answer will  automatically pop up with green highlight.
 
-        for (let x = 0; x < allAnswers; x++) {
+        /*for (let x = 0; x < allAnswers; x++) {
             if (answerContent.children[x].innerText === rightAnswer) {
                 answerContent.children[x].classList.add("green");
             }
 
-        }
+        }*/
 
     }
 
@@ -266,10 +289,14 @@ const nextButton = document.getElementById("next-question");
 nextButton.addEventListener("click", function () {
     if (currentQuestion < questions.length - 1) {
         currentQuestion++;
+        currentNumber++;
         allQuestion(currentQuestion);
+        questionCounter(currentNumber);
+        nextQuestion.classList.add("unable-button");
     } else {
         console.log("successfully loaded");
         quizFinalResult();
+        nextQuestion.classList.add("unable-button");
     }
 
 });
@@ -309,6 +336,9 @@ restartButton.addEventListener("click", function () {
     questionBox.setAttribute("class", "question-containers");
     currentQuestion = 0;
     allQuestion(currentQuestion);
+    currentNumber = 0;
+    questionCounter(currentNumber);
+    nextQuestion.classList.add("unable-button");
     document.getElementById("correct-answer").innerText = totalScoreAchieved = 0;
     document.getElementById("incorrect-answer").innerText = totalScoreAchieved = 0;
 })
