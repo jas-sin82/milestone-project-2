@@ -36,7 +36,7 @@ quitQuiz.addEventListener("click", function () {
     $(".main-container").show();
     currentQuestion = 0;
     allQuestion(currentQuestion);
-    currentNumber = 0;
+    currentNumber = 1;
     questionCounter(currentNumber);
     nextQuestion.classList.add("unable-button");
     document.getElementById("correct-answer").innerText = totalScoreAchieved = 0;
@@ -336,7 +336,7 @@ restartButton.addEventListener("click", function () {
     questionBox.setAttribute("class", "question-containers");
     currentQuestion = 0;
     allQuestion(currentQuestion);
-    currentNumber = 0;
+    currentNumber = 1;
     questionCounter(currentNumber);
     nextQuestion.classList.add("unable-button");
     document.getElementById("correct-answer").innerText = totalScoreAchieved = 0;
