@@ -1,5 +1,7 @@
 # Planet IQ Quiz App 
 
+## [Live View ](https://jas-sin82.github.io/milestone-project-2/)
+
 ## Interactive Frontend Development Milestone-2 Project
 
 Intention behind to build this Project is educational purpose! In this project I have used HTML for structure , 
